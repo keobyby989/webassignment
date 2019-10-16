@@ -1,0 +1,750 @@
+*{
+    font-family: 'Battambang', cursive;
+}
+div{ 
+    font-family: 'Battambang', cursive !important;
+    font-weight: bold !important;
+}
+
+/* .center{
+    width: 100%;
+    height: 1200px;
+    margin: 0px;
+    padding: 0px;
+    background-color:blue;
+} */
+/* .container-fluid{
+    width: 60%;
+    height: 1200px;
+    margin-left: 500px;
+    background-color: white;
+} */
+
+.mt-5{
+    height: 500px;
+}
+
+.topic h2{
+    margin-top:0px;
+    margin-left: 70px;
+    font-family: 'Battambang', cursive;
+    font-weight: bold;
+    /* font-family: 'Fasthand', serif;
+    font-family: 'Kdam Thmor', cursive;
+    font-family: 'Preahvihear', cursive;
+    font-family: 'Metal', cursive;
+    font-family: 'Bayon', cursive;
+    font-family: 'Chenla', cursive;
+    font-family: 'Freehand', cursive;
+    font-family: 'Siemreap', cursive;
+    font-family: 'Angkor', cursive;
+    font-family: 'Koulen', cursive;
+    font-family: 'Bokor', cursive;
+    font-family: 'Battambang', cursive; */
+   
+}
+
+.angkorWat img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+    
+} 
+.litter_angkorWat{
+    text-align: center;
+    margin-left:100px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.bokor img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_bokor{
+    text-align: center;
+    margin-left:100px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.kohRong img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kohRong{
+    text-align: center;
+    margin-left:100px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.teokBoSra img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_teokBoSra{
+    text-align: center;
+    margin-left:65px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.phnomPenh img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_phnomPenh{
+    text-align: center;
+    margin-left:110px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.toulSleng img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_toulSleng{
+    text-align: center;
+    margin-left:40px;
+    margin-top: 85px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+
+.nationalMuseum img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_nationalMuseum{
+    text-align: center;
+    margin-left:80px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.PreahVihea img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);    /*-8px -8px 6px rgb(211,211,211); */
+} 
+.litter_PreahVihea{
+    text-align: center;
+    margin-left:60px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+
+/* row temple */
+.angkorWat img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_angkorWat{
+    text-align: center;
+    margin-left:110px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.PreahVihea img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);    /*-8px -8px 6px rgb(211,211,211); */
+} 
+.litter_PreahVihea{
+    text-align: center;
+    margin-left:50px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.somboPreyKuk img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_somboPreyKuk{
+    text-align: center;
+    margin-left:40px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.baYon img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_baYon{
+    text-align: center;
+    margin-left:70px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.baKheng img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_baKheng{
+    text-align: center;
+    margin-left:100px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.taProm img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_taProm{
+    text-align: center;
+    margin-left:65px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+
+.banTeaySrey img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_banTeaySrey{
+    text-align: center;
+    margin-left:50px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.moreTemple img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);    /*-8px -8px 6px rgb(211,211,211); */
+} 
+.litter_moreTemple{
+    text-align: center;
+    margin-left:50px;
+    margin-top: 90px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mountian&Waterfall */
+.bokor2 img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-left:70px; 
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_bokor2{
+    text-align: center;
+    margin-left:120px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.Kirirom img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);    /*-8px -8px 6px rgb(211,211,211); */
+} 
+.litter_Kirirom{
+    text-align: center;
+    margin-left:95px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.kompongTrach img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kompongTrach{
+    text-align: center;
+    margin-left:80px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.phnomSomPov img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_phnomSomPov{
+    text-align: center;
+    margin-left:95px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.bouSra img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_bouSra{
+    text-align: center;
+    margin-left:110px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.kbalChhay img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kbalChhay{
+    text-align: center;
+    margin-left:55px;
+    margin-top: 95px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+
+.kaChoung img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kaChoung{
+    text-align: center;
+    margin-left:80px;
+    margin-top: 105px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.moreTemple img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);    /*-8px -8px 6px rgb(211,211,211); */
+} 
+.litter_moreTemple{
+    text-align: center;
+    margin-left:110px;
+    margin-top: 90px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Beach&Island */
+.kep img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-left:70px; 
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kep{
+    text-align: center;
+    margin-left:120px;
+    margin-top: 110px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.otres img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);    /*-8px -8px 6px rgb(211,211,211); */
+} 
+.litter_otres{
+    text-align: center;
+    margin-left:80px;
+    margin-top: 110px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.ocheuteal img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_ocheuteal{
+    text-align: center;
+    margin-left:60px;
+    margin-top: 110px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.prekTreng img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_prekTreng{
+    text-align: center;
+    margin-left:70px;
+    margin-top: 115px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.kohRong2 img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kohRong2{
+    text-align: center;
+    margin-left:125px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.kohTaKiev img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kohTaKiev{
+    text-align: center;
+    margin-left:80px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+
+.kohTonSay img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);
+} 
+.litter_kohTonSay{
+    text-align: center;
+    margin-left:80px;
+    margin-top: 100px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+.moreTemple img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:0px 10px 15px rgb(169,169,169);    /*-8px -8px 6px rgb(211,211,211); */
+} 
+.litter_moreTemple{
+    text-align: center;
+    margin-left:80px;
+    margin-top: 95px;
+    font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-weight: bold;    
+    position: absolute;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-color:red;
+}
