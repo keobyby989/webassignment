@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Sovann Phumi</title>
+  <title>Sovannaphumi</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -36,7 +36,9 @@
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark brown darken-3">
           <div class="container">
-            <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+            <a class="navbar-brand" href="index.html">
+              <img src="image/Logoweb.png" style="width: 100px;height: 60px;" alt="logo"> 
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -44,16 +46,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">ប្រាសាទ <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="templePost.html">ប្រាសាទ <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">រមណីដ្ឋានភ្នំនិងទឹកធ្លាក់</a>
+                  <a class="nav-link" href="mountainWaterPost.html">រមណីយដ្ឋានភ្នំនិងទឹកធ្លាក់</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">ឆ្នេរសមុទ្រនិងកោះ</a>
+                  <a class="nav-link" href="beachSeaPost.html">ឆ្នេរសមុទ្រនិងកោះ</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ផ្សេងៗ</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">ផ្សេងៗ</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="historyPlace.html">កន្លែងប្រវត្តិសាស្រ្ត</a>
+                    <a class="dropdown-item" href="#">រមណីយដ្ឋានធម្មជាតិ</a>
+                    <a class="dropdown-item" href="#">រមណីយដ្ឋានកែច្នៃ</a>
+                    <a class="dropdown-item" href="heritageThingPost.html">សម្បត្តិ​បេតិកភណ្ឌជាតិ</a>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -83,34 +92,34 @@
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <div class="view">
-                  <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                  <img class="d-block w-100" src="ImageSlide/1.jpg" alt="First slide">
                   <div class="mask rgba-black-light"></div>
                 </div>
                 <div class="carousel-caption">
-                  <h3 class="h3-responsive">Light mask</h3>
-                  <p>First text</p>
+                  <h3 class="h3-responsive">Temple</h3>
+                  <p>Angkor Wat</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                  <img class="d-block w-100" src="ImageSlide/2.jpg" alt="Second slide">
                   <div class="mask rgba-black-strong"></div>
                 </div>
                 <div class="carousel-caption">
-                  <h3 class="h3-responsive">Strong mask</h3>
-                  <p>Secondary text</p>
+                  <h3 class="h3-responsive">Beach</h3>
+                  <p>Otres</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                  <img class="d-block w-100" src="ImageSlide/5.jpg" alt="Third slide">
                   <div class="mask rgba-black-slight"></div>
                 </div>
                 <div class="carousel-caption">
-                  <h3 class="h3-responsive">Slight mask</h3>
-                  <p>Third text</p>
+                  <h3 class="h3-responsive">Mountian</h3>
+                  <p>Bokor resort</p>
                 </div>
               </div>
 
@@ -138,9 +147,9 @@
           <div class="card-body card-body-cascade text-center">
 
             <!-- Title -->
-            <h2 class="font-weight-bold"><a>Title of the news</a></h2>
+            <h2 class="font-weight-bold"><a>សូមស្វាគមន៍</a></h2>
             <!-- Data -->
-            <p>Written by <a><strong>Abby Madison</strong></a>, 26/08/2018</p>
+            <p><a><strong>មកកាន់គេហទំព័រ សុវណ្ណភូមិ</strong></a></p>
             <!-- Social shares -->
             <div class="social-counters">
               <!-- Facebook -->
@@ -148,25 +157,25 @@
                 <i class="fab fa-facebook-f pr-2"></i>
                 <span class="clearfix d-none d-md-inline-block">Facebook</span>
               </a>
-              <span class="counter">46</span>
+              <!-- <span class="counter">46</span> -->
               <!-- Twitter -->
               <a class="btn btn-tw">
                 <i class="fab fa-twitter pr-2"></i>
                 <span class="clearfix d-none d-md-inline-block">Twitter</span>
               </a>
-              <span class="counter">22</span>
+              <!-- <span class="counter">22</span> -->
               <!-- Google+ -->
               <a class="btn btn-gplus">
                 <i class="fab fa-google-plus-g pr-2"></i>
                 <span class="clearfix d-none d-md-inline-block">Google+</span>
               </a>
-              <span class="counter">31</span>
+              <!-- <span class="counter">31</span> -->
               <!-- Comments -->
               <a class="btn btn-default">
                 <i class="far fa-comments pr-2"></i>
                 <span class="clearfix d-none d-md-inline-block">Comments</span>
               </a>
-              <span class="counter">18</span>
+              <!-- <span class="counter">18</span> -->
             </div>
             <!-- Social shares -->
 
@@ -202,7 +211,7 @@
                       <td>
                         <!-- angkor -->
                         <div class="angkorWat">
-                          <a href="D:\A. Year4\Web Git\assweb-master\detailAngkor.html">
+                          <a href="detailAngkor.html">
                             <img src="image/Angkor4.jpg" alt="Angkor">
                             <div class="litter_angkorWat" style=" font-family: 'Battambang', cursive;">
                               ប្រាសាទអង្គរវត្ត</div>
@@ -214,7 +223,7 @@
                       <td>
                         <!-- bokor -->
                         <div class="bokor">
-                          <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                          <a href="boko.html">
                             <img src="image/Bokor.jpg" alt="Bokor">
                             <div class="litter_bokor"> ភ្នំបូកគោ</div>
                           </a>
@@ -223,7 +232,7 @@
                       <td>
                         <!-- koh rong -->
                         <div class="kohRong">
-                          <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                          <a href="detailKogRong.html">
                             <img src="image/kohrong1.jpg" alt="kohRong">
                             <div class="litter_kohRong">កោះរ៉ុង</div>
                           </a>
@@ -236,7 +245,7 @@
                 </div>
 
                 <div class="teokBoSra">
-                  <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                  <a href="detailBuosra.html">
                     <img src="image/Bosra watefall.jpg" alt="Bosra watefall">
                     <div class="litter_teokBoSra">ទឹកធ្លាក់ប៊ូស្រា</div>
                   </a>
@@ -251,7 +260,7 @@
                   <td>
                     <!-- phnomPenh -->
                     <div class="phnomPenh">
-                      <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                      <a href="detailPhnomPenh.html">
                         <img src="image/the-Cambodias-Royal-Palace.jpg" alt="Phnom Penh">
                         <div class="litter_phnomPenh">ទីក្រុងភ្នំពេញ</div>
                       </a>
@@ -260,7 +269,7 @@
                   <td>
                     <!-- toulSleng -->
                     <div class="toulSleng">
-                      <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                      <a href="toulSreng.html">
                         <img src="image/Toul Sleng.jpg" alt="Bokor">
                         <div class="litter_toulSleng">សារមន្ទីរប្រល័យ<br>ពូជសាសន៍ទួលស្លែង</div>
                       </a>
@@ -278,7 +287,7 @@
                   <td>
                     <!-- Brasat PreahVihea -->
                     <div class="PreahVihea">
-                      <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                      <a href="detailPreahvihear.html">
                         <img src="image/Preah Vihear.jpg" alt="PreahVihea">
                         <div class="litter_PreahVihea">ប្រាសាទព្រះវិហារ </div>
                       </a>
@@ -315,7 +324,7 @@
                     <td>
                       <!-- angkor -->
                       <div class="angkorWat">
-                        <a href="D:\A. Year4\Web Git\assweb-master\detailAngkor.html">
+                        <a href="detailAngkor.html">
                           <img src="image/Angkor4.jpg" alt="Angkor">
                           <div class="litter_angkorWat"> ប្រាសាទអង្គរវត្ត</div>
                         </a>
@@ -326,7 +335,7 @@
                     <td>
                       <!-- Preah Vihear -->
                       <div class="PreahVihea">
-                        <a href="D:\A. Year4\Web Git\assweb-master\detailPreahvihear.html">
+                        <a href="detailPreahvihear.html">
                           <img src="image/Preah Vihear.jpg" alt="PreahVihea">
                           <div class="litter_PreahVihea"> ប្រាសាទព្រះវិហារ</div>
                         </a>
@@ -335,7 +344,7 @@
                     <td>
                       <!-- somboPreyKuk -->
                       <div class="somboPreyKuk">
-                        <a href="D:\A. Year4\Web Git\assweb-master\detailSombopreykok.html">
+                        <a href="detailSombopreykok.html">
                           <img src="image/Sombo Prey Kuk.jpg" alt="kohRong">
                           <div class="litter_somboPreyKuk">ប្រាសាទសម្បូរព្រៃគុគ</div>
                         </a>
@@ -344,7 +353,7 @@
                     <td>
                       <!-- ba kheng -->
                       <div class="baYon">
-                        <a href="D:\A. Year4\Web Git\assweb-master\detailBayon.html">
+                        <a href="detailBayon.html">
                           <img src="image/bayon-temple.jpg" alt="Ba Yon">
                           <div class="litter_baYon">ប្រាសាទបាយ័ន</div>
                         </a>
@@ -359,7 +368,7 @@
                     <td>
                       <!-- ba kheng -->
                       <div class="baKheng">
-                        <a href="D:\A. Year4\Web Git\assweb-master\detailBakheng.html">
+                        <a href="detailBakheng.html">
                           <img src="image/Phnom-Bakheng.jpg">
                           <div class="litter_baKheng">ប្រាសាទបាខែង</div>
                         </a>
@@ -368,7 +377,7 @@
                     <td>
                       <!-- ta prom -->
                       <div class="taProm">
-                        <a href="D:\A. Year4\Web Git\assweb-master\detailTaprom.html">
+                        <a href="detailTaprom.html">
                           <img src="image/taProm.jpg" alt="Ta Prom">
                           <div class="litter_taProm">ប្រាសាទតាព្រហ្ម </div>
                         </a>
@@ -377,7 +386,7 @@
                     <td>
                       <!-- banteaysrey-->
                       <div class="banTeaySrey">
-                        <a href="D:\A. Year4\Web Git\assweb-master\detailBonteaysrey.html">
+                        <a href="detailBonteaysrey.html">
                           <img src="image/banteaysrei.jpg" alt="banTeaySrey">
                           <div class="litter_banTeaySrey">ប្រាសាទបន្ទាយស្រី</div>
                         </a>
@@ -385,8 +394,17 @@
                     </td>
                     <td>
                       <!-- More Temple -->
+                      <!-- mask -->
+                      <!-- <div class="view">
+                          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img (132).jpg" class="img-fluid" alt="Image of ballons flying over canyons with mask pattern one.">
+                          <div class="mask pattern-8 flex-center">
+                              <p class="white-text">.pattern-8</p>
+                          </div> -->
+                      
+                      
+                        </div>
                       <div class="moreTemple">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="templePost.html">
                           <img src="image/moreTemple.jpg" alt="moreTemple">
                           <div class="litter_moreTemple">បន្ថែមទៀត...</div>
                         </a>
@@ -400,67 +418,6 @@
               <!-- Grid row -->
             </section>
             <!-- Section: Blog v.4 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!-- hr Mountian -->
             <hr>
             <section class="my-5">
@@ -472,7 +429,7 @@
                 <!-- Excerpt -->
                 <!-- Mountian & Waterfall -->
                 <div class="topic">
-                  <h2>រមណីដ្ឋានភ្នំនិង ទឹកធ្លាក់</h2>
+                  <h2>រមណីយដ្ឋានភ្នំនិង ទឹកធ្លាក់</h2>
                 </div>
                 <table>
                   <tr>
@@ -480,7 +437,7 @@
                     <td>
                       <!-- bokor2 -->
                       <div class="bokor2">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="boko.html">
                           <img src="image/Bokor.jpg" alt="Bokor">
                           <div class="litter_bokor2"> ភ្នំបូកគោ</div>
                         </a>
@@ -489,7 +446,7 @@
                     <td>
                       <!--  Kirirom -->
                       <div class="Kirirom">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="kirirom.html">
                           <img src="image/Kirirom.jpg" alt="PreahVihea">
                           <div class="litter_Kirirom"> គិរីរម្យ</div>
                         </a>
@@ -498,7 +455,7 @@
                     <td>
                       <!-- Kompon Trach -->
                       <div class="kompongTrach">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="detailkompongtrach.html">
                           <img src="image/KompongTrach1.jpg" alt="kohRong">
                           <div class="litter_kompongTrach">ភ្នំកំពង់ត្រាច</div>
                         </a>
@@ -507,7 +464,7 @@
                     <td>
                       <!-- Phnom Sompov -->
                       <div class="phnomSomPov">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="detailPhnomSampov.html">
                           <img src="image/Phnom-Sampeou-Mountain.jpg" alt="phnomSomPov">
                           <div class="litter_phnomSomPov">ភ្នំសំពៅ</div>
                         </a>
@@ -522,7 +479,7 @@
                     <td>
                       <!-- BoSra watefall -->
                       <div class="bouSra">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="detailBuosra.html">
                           <img src="image/BouSra.jpg">
                           <div class="litter_bouSra">ទឹកធ្លាក់ប៊ូស្រា</div>
                         </a>
@@ -531,7 +488,7 @@
                     <td>
                       <!-- kbalChhay -->
                       <div class="kbalChhay">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="detailKbalChhay.html">
                           <img src="image/Kbal-Chhay-Waterfall.jpg" alt="kbalChhay">
                           <div class="litter_kbalChhay">ទឹកធ្លាក់ក្បាលឆាយ </div>
                         </a>
@@ -540,7 +497,7 @@
                     <td>
                       <!-- kaChoung-->
                       <div class="kaChoung">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="#">
                           <img src="image/Ka-Choung.jpg" alt="kaChoung">
                           <div class="litter_kaChoung">ទឹកធ្លាក់កាចុង</div>
                         </a>
@@ -549,7 +506,7 @@
                     <td>
                       <!-- More Temple -->
                       <div class="moreTemple">
-                        <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                        <a href="mountainWaterPost.html">
                           <img src="image/moreTemple.jpg" alt="moreTemple">
                           <div class="litter_moreTemple">បន្ថែមទៀត...</div>
                         </a>
@@ -563,44 +520,6 @@
             </section>
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- hr Mountian -->
         <hr>
         <section class="my-5">
@@ -620,7 +539,7 @@
                 <td>
                   <!-- kep -->
                   <div class="kep">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="Kep.html">
                       <img src="image/kep.jpg" alt="kep">
                       <div class="litter_kep"> ឆ្នេរកែប</div>
                     </a>
@@ -629,7 +548,7 @@
                 <td>
                   <!--  otres -->
                   <div class="otres">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="detailOtresBeach.html">
                       <img src="image/Otres_Beach.jpg" alt="otres">
                       <div class="litter_otres"> ឆ្នេរអូរត្រេស</div>
                     </a>
@@ -638,7 +557,7 @@
                 <td>
                   <!-- ocheuteal -->
                   <div class="ocheuteal">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="detailOrcherteal.html">
                       <img src="image/ochheuteal-beach.jpg" alt="kohRong">
                       <div class="litter_ocheuteal">ឆ្នេរអូរឈើទាល</div>
                     </a>
@@ -647,7 +566,7 @@
                 <td>
                   <!-- prekTreng -->
                   <div class="prekTreng">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="detailPrektreng.html">
                       <img src="image/PrekTreng.jpg" alt="phnomSomPov">
                       <div class="litter_prekTreng">ឆ្នេរព្រែកត្រែង</div>
                     </a>
@@ -662,7 +581,7 @@
                 <td>
                   <!-- kohRong2 -->
                   <div class="kohRong2">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="detailKogRong.html">
                       <img src="image/koh rong.jpg">
                       <div class="litter_kohRong2">កោះរ៉ុង</div>
                     </a>
@@ -671,7 +590,7 @@
                 <td>
                   <!-- kohTaKiev -->
                   <div class="kohTaKiev">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="detailKohTakheiv.html">
                       <img src="image/KohTaKiev.jpg" alt="kohTaKiev">
                       <div class="litter_kohTaKiev">កោះតាគៀវ </div>
                     </a>
@@ -680,7 +599,7 @@
                 <td>
                   <!-- kohTonSay-->
                   <div class="kohTonSay">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="#">
                       <img src="image/rabbit-island (2).jpg" alt="kohTonSay">
                       <div class="litter_kohTonSay">កោះទន្សាយ</div>
                     </a>
@@ -689,7 +608,7 @@
                 <td>
                   <!-- More Temple -->
                   <div class="moreTemple">
-                    <a href="C:\Users\MSI\Desktop\Web_Assignment\index2.html">
+                    <a href="beachSeaPost.html">
                       <img src="image/moreTemple.jpg" alt="moreTemple">
                       <div class="litter_moreTemple">បន្ថែមទៀត...</div>
                     </a>
@@ -744,14 +663,21 @@
 
             <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-              <!-- Content -->
-              <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">តំណភ្ជាប់</h6>
               <hr class="brown darken-3 accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur
-                adipisicing elit.</p>
-
+              <p>
+                <a href="templePost.html">ប្រាសាទ</a>
+              </p>
+              <p>
+                <a href="mountainWaterPost.html">រមណីយដ្ឋានភ្នំនិង​​​ ទឹកធ្លាក់</a>
+              </p>
+              <p>
+                <a href="beachSeaPost.html">ឆ្នេរសមុទ្រនិង​ កោះ</a>
+              </p>
+              <p>
+                <a href="otherPost.html">រមណីយដ្ឋានផ្សេងៗ</a>
+              </p>           
             </div>
             <!-- Grid column -->
 
@@ -759,42 +685,28 @@
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Products</h6>
+              <h6 class="text-uppercase font-weight-bold">សមាជិកក្រុម</h6>
               <hr class="brown darken-3 accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="#!">Chorm Ratana</a>
               </p>
               <p>
-                <a href="#!">MDWordPress</a>
+                <a href="#!">Ho Sivhor</a>
               </p>
               <p>
-                <a href="#!">BrandFlow</a>
+                <a href="#!">Keo Byby</a>
               </p>
-              <p>
-                <a href="#!">Bootstrap Angular</a>
-              </p>
-
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-              <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold">អំពីយើង</h6>
               <hr class="brown darken-3 accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                <a href="#!">Your Account</a>
+              <p class="text-wrap"> យើងខ្ញុំបានបង្កើតគេហទំព័រមួយនេះឡើងក្នុងគោល បំណង​ជួយសម្រួលដល់អ្នកកំពុងស្វែងរកព័តមានអំពីកន្លែងកំសាន្តប្រវត្តិសាស្រ្តរមណីយដ្ឋានធម្មជាតិរួមទាំងរមណីយដ្ឋានកែច្នៃផងដែរ៕
               </p>
-              <p>
-                <a href="#!">Become an Affiliate</a>
-              </p>
-              <p>
-                <a href="#!">Shipping Rates</a>
-              </p>
-              <p>
-                <a href="#!">Help</a>
-              </p>
+              
 
             </div>
             <!-- Grid column -->
@@ -803,10 +715,10 @@
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Contact</h6>
+              <h6 class="text-uppercase font-weight-bold">ទំនាក់ទំនង</h6>
               <hr class="brown darken-3 accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p>
-                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                <i class="fas fa-home mr-3"></i> ភ្នំពេញ</p>
               <p>
                 <i class="fas fa-envelope mr-3"></i> info@example.com</p>
               <p>
@@ -824,8 +736,8 @@
         <!-- Footer Links -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-          <a href="#"> Sovann Phumi</a>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+          <a href="#"> Sovannaphumi</a>
         </div>
         <!-- Copyright -->
 
@@ -833,15 +745,21 @@
       <!-- Footer -->
       <!-- Start your project here-->
 
-      <!-- SCRIPTS -->
-      <!-- JQuery -->
       <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-      <!-- Bootstrap tooltips -->
-      <script type="text/javascript" src="js/popper.min.js"></script>
-      <!-- Bootstrap core JavaScript -->
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <!-- MDB core JavaScript -->
-      <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // MDB Lightbox Init
+      $(function () {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      });
+    })
+  </script>
 
 </body>
 

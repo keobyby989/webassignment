@@ -748,3 +748,6 @@ div{
     padding: 0px;
     background-color:red;
 }
+.dropdown-item  a:hover, a:visited{
+    background-color: #3e2723!important;
+}
